@@ -1,0 +1,14 @@
+[package]
+name = "audiotest"
+version = "0.1.0"
+authors = ["Joe Salmon <studio@josephsalmon.co.nz>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1"
+cpal = "0.12"
+dasp = { version = "0.11", features = ["all"] }
+find_folder = "0.3"
+hound = "3"
